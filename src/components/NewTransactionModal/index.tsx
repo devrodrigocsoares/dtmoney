@@ -46,6 +46,7 @@ export function NewTransactionModal ({isOpen,OnRequestClose}:NewTransctionModalP
                 type="button"
                 onClick={() => {settype('deposit'); }}
                 isActive = {type === 'deposit'}
+                activeColor = "green"
               >
                 <img src={income} alt="Entrada" />
                 <span>Entrada</span>
@@ -56,6 +57,7 @@ export function NewTransactionModal ({isOpen,OnRequestClose}:NewTransctionModalP
                 type="button"
                 onClick={() => {settype('withdrawn'); }}
                 isActive = {type === 'withdrawn'}
+                activeColor = "red"
               >
                 <img src={outcome} alt="Saída"/>
                 <span>Saída</span>
