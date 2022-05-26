@@ -11,7 +11,7 @@ createServer ({
 
     },
 
-    seeds(server){
+    /*seeds(server){
       server.db.loadData({
         transactions: [
           {
@@ -32,9 +32,8 @@ createServer ({
             createdAt: new Date('2019-03-14 17:00:00')
           }
         ],
-
       })
-    },
+    },*/
 
   routes(){
     this.namespace = 'api';
