@@ -19,16 +19,16 @@ createServer ({
             title: 'Freenlancer Website',
             type: 'deposit',
             category: 'dev',
-            amount: 600,
+            amount: 1500,
             createdAt: new Date('2022-01-01 09:00:00')
           },
 
           {
             id: 2,
             title: 'Freenlancer Mobile',
-            type: 'deposit',
+            type: 'withdraw',
             category: 'dev',
-            amount: 900,
+            amount: 500,
             createdAt: new Date('2019-03-14 17:00:00')
           }
         ],

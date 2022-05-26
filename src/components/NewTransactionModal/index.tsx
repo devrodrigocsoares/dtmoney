@@ -8,7 +8,6 @@ import income from '../../assets/income.svg';
 import outcome from '../../assets/outcome.svg';
 
 
-
 interface NewTransctionModalProps {
   isOpen: boolean;
   OnRequestClose: ()=> void;
@@ -86,8 +85,8 @@ const {createTransaction} = useContext(TransactionsContext)
               
               <RadioBox
                 type="button"
-                onClick={() => {settype('withdrawn'); }}
-                isActive = {type === 'withdrawn'}
+                onClick={() => {settype('withdraw'); }}
+                isActive = {type === 'withdraw'}
                 activeColor = "red"
               >
                 <img src={outcome} alt="Saída"/>

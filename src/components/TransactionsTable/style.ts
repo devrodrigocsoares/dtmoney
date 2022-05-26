@@ -27,7 +27,6 @@ export const Container = styled.div`
 
       &:first-child{
         color: var(--text-title);
-        
       }
 
       &.deposit{
@@ -38,5 +37,4 @@ export const Container = styled.div`
         color: var(--red);
       }
   }
-
 `;
