@@ -1,4 +1,3 @@
-import { type } from '@testing-library/user-event/dist/type';
 import { createContext, useState, useEffect, ReactNode} from 'react'
 import { api } from './services/api';
 
