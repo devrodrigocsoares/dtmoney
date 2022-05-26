@@ -9,8 +9,9 @@ import { Container } from "./style";
 
 export function Summary (){
 
-  const data = useContext(TransactionsContext)
-  console.log (data);
+  const transactions = useContext(TransactionsContext);
+
+  console.log (transactions);
 
   return (
     <Container>
